@@ -1,0 +1,11 @@
+flask
+transformers==4.40.0
+accelerate
+bitsandbytes
+peft
+torch
+sentencepiece
+safetensors
+sentence-transformers>=2.2.2
+scikit-learn
+numpydeep-translator

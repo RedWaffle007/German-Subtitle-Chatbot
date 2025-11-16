@@ -1,0 +1,45 @@
+# -------------------
+# Python + Streamlit
+# -------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+.env
+.cache/
+
+# -------------------
+# Model + embedding files (TOO LARGE FOR GITHUB)
+# -------------------
+models/
+offload/
+*.safetensors
+*.bin
+*.npz
+
+# -------------------
+# Subtitle raw/cleaned data (optional to keep private)
+# -------------------
+data/raw_subs/
+data/cleaned/
+data/subs_embeddings.npz
+data/subs_meta.json
+
+# -------------------
+# Streamlit assets (KEEP images)
+# -------------------
+demo/assets/*.png
+
+# -------------------
+# Node/React frontend (removed)
+# -------------------
+frontend/
+node_modules/
+dist/
+
+# -------------------
+# Docker leftover
+# -------------------
+*.log
+
